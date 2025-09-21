@@ -1,7 +1,7 @@
-body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f0f0f5; color:#333; }
+body { font-family: Arial,sans-serif; margin:0; padding:0; background:#f0f0f5; color:#333; }
 header { background:#ff8ba7; color:white; padding:1rem; text-align:center; }
 h1,h2 { margin:0.5rem 0; }
-.rooms, .all-rooms { padding:1rem; }
+.rooms,.all-rooms { padding:1rem; }
 .room-list { display:flex; flex-wrap:wrap; gap:1rem; }
 .room-card { background:white; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.15); padding:1rem; width:120px; text-align:center; }
 .room-card img { width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:0.5rem; }
