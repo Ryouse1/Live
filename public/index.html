@@ -8,12 +8,27 @@
 </head>
 <body>
   <header>
-    <h1>Live配信アプリ</h1>
+    <h1>Live配信</h1>
+    <button id="admin-login">管理者ログイン</button>
   </header>
-  <main>
-    <button id="start-stream">📡 配信を開始</button>
-    <div id="video-container"></div>
-  </main>
+
+  <section class="rooms">
+    <h2>急上昇配信者</h2>
+    <div class="room-list"></div>
+  </section>
+
+  <section class="all-rooms">
+    <h2>全配信者</h2>
+    <div class="room-list"></div>
+  </section>
+
+  <section class="chat">
+    <h2>コメント</h2>
+    <div class="chat-window"></div>
+    <input type="text" id="chat-input" placeholder="コメントを入力"/>
+    <button id="send-chat">送信</button>
+  </section>
+
   <script type="module" src="app.js"></script>
 </body>
 </html>
