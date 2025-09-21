@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #6200ee;
+  color: white;
+  padding: 1rem;
+}
+main {
+  padding: 2rem;
+  text-align: center;
+}
+button {
+  padding: 1rem 2rem;
+  background: #03dac6;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
